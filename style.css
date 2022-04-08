@@ -284,10 +284,11 @@ html {
 
 .flex-container {
   width: 100%;
-
   height: auto;
   display: flex;
   justify-content: space-around;
+  padding-right: 140px;
+  /* margin: 0; */
 }
 .flex-box {
   width: 200px;
@@ -300,6 +301,7 @@ html {
   width: 350px;
   height: 350px;
   transition: 1s;
+  padding: 10px;
 }
 .flex-box img:hover {
   border: 10px solid rgb(241, 107, 5);
